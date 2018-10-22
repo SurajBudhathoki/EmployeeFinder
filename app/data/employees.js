@@ -19,7 +19,7 @@ var employeesList = [
         ]
     },
     {
-        "name" : "brad",
+        "name" : "Brad",
         "photo" : "\assets\images\brad.jpg",
         "score" : [
             2,
@@ -35,7 +35,7 @@ var employeesList = [
         ]
     },
     {
-        "name" : "charlie",
+        "name" : "Charlie",
         "photo" : "\assets\images\charlie.jpg",
         "score" : [
             2,
@@ -51,7 +51,7 @@ var employeesList = [
         ]
     },
     {
-        "name" : "derek",
+        "name" : "Derek",
         "photo" : "\assets\images\derek.jpg",
         "score" : [
             5,
@@ -67,7 +67,7 @@ var employeesList = [
         ]
     },
     {
-        "name" : "emily",
+        "name" : "Emily",
         "photo" : "\assets\images\emily.jpg",
         "score" : [
             3,
@@ -83,7 +83,7 @@ var employeesList = [
         ]
     },
     {
-        "name" : "felicia",
+        "name" : "Felicia",
         "photo" : "\assets\images\felicia.jpg",
         "score" : [
             4,
@@ -99,7 +99,7 @@ var employeesList = [
         ]
     },
     {
-        "name" : "george",
+        "name" : "George",
         "photo" : "\assets\images\george.jpg",
         "score" : [
             1,
@@ -115,7 +115,7 @@ var employeesList = [
         ]
     },
     {
-        "name" : "holly",
+        "name" : "Holly",
         "photo" : "\assets\images\holly.jpg",
         "score" : [
             5,
@@ -131,7 +131,7 @@ var employeesList = [
         ]
     },
     {
-        "name" : "isha",
+        "name" : "Isha",
         "photo" : "\assets\images\isha.jpg",
         "score" : [
             5,
@@ -147,7 +147,7 @@ var employeesList = [
         ]
     },
     {
-        "name" : "julia",
+        "name" : "Julia",
         "photo" : "\assets\images\julia.jpg",
         "score" : [
             5,
