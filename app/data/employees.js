@@ -22,12 +22,12 @@ var employeesList = [
         "name" : "Brad",
         "photo" : "\assets\images\brad.jpg",
         "scores" : [
-            2,
+            5,
             4,
             1,
             3,
             4,
-            2,
+            5,
             4,
             4,
             5,
@@ -72,14 +72,14 @@ var employeesList = [
         "scores" : [
             3,
             3,
+            5,
+            3,
+            3,
+            5,
             3,
             3,
             3,
-            3,
-            3,
-            3,
-            3,
-            3
+            5
         ]
     },
     {
@@ -93,7 +93,7 @@ var employeesList = [
             2,
             1,
             2,
-            2,
+            3,
             1,
             1
         ]
@@ -103,14 +103,14 @@ var employeesList = [
         "photo" : "\assets\images\george.jpg",
         "scores" : [
             1,
+            1,
+            1,
             2,
             1,
             2,
-            3,
-            2,
             2,
             1,
-            2,
+            1,
             1
         ]
     },
@@ -118,15 +118,15 @@ var employeesList = [
         "name" : "Holly",
         "photo" : "\assets\images\holly.jpg",
         "scores" : [
-            5,
+            1,
             1,
             4,
             4,
-            5,
+            1,
+            1,
             1,
             2,
-            5,
-            4,
+            1,
             1
         ]
     },
@@ -134,16 +134,16 @@ var employeesList = [
         "name" : "Isha",
         "photo" : "\assets\images\isha.jpg",
         "scores" : [
-            5,
+            1,
             3,
             4,
             1,
             2,
             1,
-            4,
+            2,
             3,
             2,
-            5
+            2
         ]
     },
     {

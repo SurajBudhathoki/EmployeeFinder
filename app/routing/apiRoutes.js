@@ -27,7 +27,7 @@ module.exports = function(app) {
 
 
         var newScores = req.body.scores;
-        var employee = req.body;
+        var newEmployee = req.body;
     
         var total;
 
@@ -56,7 +56,7 @@ module.exports = function(app) {
         }
 
         //adding the employee from the survey to our employeeList
-        employeesList.push(employee);
+        employeesList.push(newEmployee);
 
 
         console.log(bestMatch);
