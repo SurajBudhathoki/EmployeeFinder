@@ -4,8 +4,8 @@ var employeesList = [
 
     {
         "name" : "Ahmed",
-        "photo" : "\assets\images\ahmed.png",
-        "score" : [
+        "photo" : "/assets/images/ahmed.png",
+        "scores" : [
             5,
             1,
             4,
@@ -21,7 +21,7 @@ var employeesList = [
     {
         "name" : "Brad",
         "photo" : "\assets\images\brad.jpg",
-        "score" : [
+        "scores" : [
             2,
             4,
             1,
@@ -37,7 +37,7 @@ var employeesList = [
     {
         "name" : "Charlie",
         "photo" : "\assets\images\charlie.jpg",
-        "score" : [
+        "scores" : [
             2,
             2,
             3,
@@ -53,7 +53,7 @@ var employeesList = [
     {
         "name" : "Derek",
         "photo" : "\assets\images\derek.jpg",
-        "score" : [
+        "scores" : [
             5,
             4,
             3,
@@ -69,7 +69,7 @@ var employeesList = [
     {
         "name" : "Emily",
         "photo" : "\assets\images\emily.jpg",
-        "score" : [
+        "scores" : [
             3,
             3,
             3,
@@ -85,7 +85,7 @@ var employeesList = [
     {
         "name" : "Felicia",
         "photo" : "\assets\images\felicia.jpg",
-        "score" : [
+        "scores" : [
             4,
             5,
             4,
@@ -101,7 +101,7 @@ var employeesList = [
     {
         "name" : "George",
         "photo" : "\assets\images\george.jpg",
-        "score" : [
+        "scores" : [
             1,
             2,
             1,
@@ -117,7 +117,7 @@ var employeesList = [
     {
         "name" : "Holly",
         "photo" : "\assets\images\holly.jpg",
-        "score" : [
+        "scores" : [
             5,
             1,
             4,
@@ -133,7 +133,7 @@ var employeesList = [
     {
         "name" : "Isha",
         "photo" : "\assets\images\isha.jpg",
-        "score" : [
+        "scores" : [
             5,
             3,
             4,
@@ -149,7 +149,7 @@ var employeesList = [
     {
         "name" : "Julia",
         "photo" : "\assets\images\julia.jpg",
-        "score" : [
+        "scores" : [
             5,
             5,
             5,
