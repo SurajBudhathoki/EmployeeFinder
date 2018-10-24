@@ -3,9 +3,9 @@
 var employeesList = [
 
     {
-        "name" : "Ahmed",
-        "photo" : "../public/assets/images/ahmed.png",
-        "scores" : [
+        "name": "Ahmed",
+        "photo": "/assets/images/ahmed.png",
+        "scores": [
             5,
             1,
             4,
@@ -19,9 +19,9 @@ var employeesList = [
         ]
     },
     {
-        "name" : "Brad",
-        "photo" : "\assets\images\brad.jpg",
-        "scores" : [
+        "name": "Brad",
+        "photo": "/assets/images/brad.jpg",
+        "scores": [
             5,
             4,
             1,
@@ -35,9 +35,9 @@ var employeesList = [
         ]
     },
     {
-        "name" : "Charlie",
-        "photo" : "\assets\images\charlie.jpg",
-        "scores" : [
+        "name": "Charlie",
+        "photo": "/assets/images/charlie.jpg",
+        "scores": [
             2,
             2,
             3,
@@ -51,9 +51,9 @@ var employeesList = [
         ]
     },
     {
-        "name" : "Derek",
-        "photo" : "\assets\images\derek.jpg",
-        "scores" : [
+        "name": "Derek",
+        "photo": "/assets/images/derek.jpg",
+        "scores": [
             5,
             4,
             3,
@@ -67,9 +67,9 @@ var employeesList = [
         ]
     },
     {
-        "name" : "Emily",
-        "photo" : "\assets\images\emily.jpg",
-        "scores" : [
+        "name": "Emily",
+        "photo": "/assets/images/emily.jpg",
+        "scores": [
             3,
             3,
             5,
@@ -83,9 +83,9 @@ var employeesList = [
         ]
     },
     {
-        "name" : "Felicia",
-        "photo" : "\assets\images\felicia.jpg",
-        "scores" : [
+        "name": "Felicia",
+        "photo": "/assets/images/felicia.jpg",
+        "scores": [
             4,
             5,
             4,
@@ -99,10 +99,9 @@ var employeesList = [
         ]
     },
     {
-        "name" : "George",
-       // "photo" : "\assets\images\george.jpg",
-        "photo" : "https://pbs.twimg.com/profile_images/1013292799352037376/SNCb4e6E_400x400.jpg",
-        "scores" : [
+        "name": "George",
+        "photo": "/assets/images/george.jpg",
+        "scores": [
             1,
             1,
             1,
@@ -116,9 +115,9 @@ var employeesList = [
         ]
     },
     {
-        "name" : "Holly",
-        "photo" : "\assets\images\holly.jpg",
-        "scores" : [
+        "name": "Holly",
+        "photo": "/assets/images/holly.jpg",
+        "scores": [
             1,
             1,
             4,
@@ -132,9 +131,9 @@ var employeesList = [
         ]
     },
     {
-        "name" : "Isha",
-        "photo" : "https://pbs.twimg.com/profile_images/1013292799352037376/SNCb4e6E_400x400.jpg",
-        "scores" : [
+        "name": "Isha",
+        "photo": "/assets/images/isha.jpg",
+        "scores": [
             1,
             3,
             4,
@@ -148,9 +147,9 @@ var employeesList = [
         ]
     },
     {
-        "name" : "Julia",
-        "photo" : "\assets\images\julia.jpg",
-        "scores" : [
+        "name": "Julia",
+        "photo": "/assets/images/julia.jpg",
+        "scores": [
             5,
             5,
             5,

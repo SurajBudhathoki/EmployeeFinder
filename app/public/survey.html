@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,16 +5,17 @@
     <title>Survey</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-   
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  
+
     <link rel="stylesheet" href="/assets/css/style.css">
-   
+
 </head>
 
 <body>
 
+    <!-- Main Container-->
     <div class="container">
         <div class="jumbotron">
             <div class="header">
@@ -26,23 +26,26 @@
             <div>
                 <h4>Your Name (Required)</h4>
                 <div class="input-group">
-                    <input id="employeeName" class="form-control form-control-lg" type="text" name="name">
+                    <input id="employeeName" class="form-control form-control-md" type="text" name="name">
 
                 </div>
                 <br>
                 <h4>Link to a Photo Image (Required)</h4>
-                <div class="input-group">
-                    <input id="employeeImage" class="form-control form-control-lg" type="text" name="name">
 
+                <div class="custom-file">
+                    <input type="file" class="custom-file-input" id="employeeImage">
+                    <label class="custom-file-label">Choose a photo</label>
                 </div>
+
             </div>
             <hr>
 
+            <!-- Survey Questions -->
             <div>
                 <h3> <b>Question 1 </b></h3>
                 <h4> You like to solve complex problems.</h4>
-                <select class="form-control form-control-lg sel" id="q1">
-                    <option value selected disabled> Choose one</option>
+                <select class="form-control form-control-md sel" id="q1">
+                    <option value selected disabled> Choose an option</option>
                     <option value="1">1 (Strongly Disagree)</option>
                     <option value="2">2 (Disagree)</option>
                     <option value="3">3 (Neutral)</option>
@@ -55,8 +58,8 @@
             <div>
                 <h3> <b> Question 2</b> </h3>
                 <h4> You have a vivid imagination.</h4>
-                <select class="form-control form-control-lg sel" id="q2">
-                    <option value selected disabled> Choose one</option>
+                <select class="form-control form-control-md sel" id="q2">
+                    <option value selected disabled> Choose an option</option>
                     <option value="1">1 (Strongly Disagree)</option>
                     <option value="2">2 (Disagree)</option>
                     <option value="3">3 (Neutral)</option>
@@ -68,8 +71,8 @@
             <div>
                 <h3> <b>Question 3 </b></h3>
                 <h4> You enjoy being the center of attention.</h4>
-                <select class="form-control form-control-lg sel" id="q3">
-                    <option value selected disabled> Choose one</option>
+                <select class="form-control form-control-md sel" id="q3">
+                    <option value selected disabled> Choose an option</option>
                     <option value="1">1 (Strongly Disagree)</option>
                     <option value="2">2 (Disagree)</option>
                     <option value="3">3 (Neutral)</option>
@@ -80,8 +83,8 @@
             <div>
                 <h3> <b>Question 4 </b></h3>
                 <h4> You get your chores done right away.</h4>
-                <select class="form-control form-control-lg sel" id="q4">
-                    <option value selected disabled> Choose one</option>
+                <select class="form-control form-control-md sel" id="q4">
+                    <option value selected disabled> Choose an option</option>
                     <option value="1">1 (Strongly Disagree)</option>
                     <option value="2">2 (Disagree)</option>
                     <option value="3">3 (Neutral)</option>
@@ -92,8 +95,8 @@
             <div>
                 <h3> <b>Question 5</b> </h3>
                 <h4> You believe that others have good intentions.</h4>
-                <select class="form-control form-control-lg sel" id="q5">
-                    <option value selected disabled> Choose one</option>
+                <select class="form-control form-control-md sel" id="q5">
+                    <option value selected disabled> Choose an option</option>
                     <option value="1">1 (Strongly Disagree)</option>
                     <option value="2">2 (Disagree)</option>
                     <option value="3">3 (Neutral)</option>
@@ -105,8 +108,8 @@
             <div>
                 <h3> <b>Question 6</b> </h3>
                 <h4> You dislike talking about yourself.</h4>
-                <select class="form-control form-control-lg sel" id="q6">
-                    <option value selected disabled> Choose one</option>
+                <select class="form-control form-control-md sel" id="q6">
+                    <option value selected disabled> Choose an option</option>
                     <option value="1">1 (Strongly Disagree)</option>
                     <option value="2">2 (Disagree)</option>
                     <option value="3">3 (Neutral)</option>
@@ -118,8 +121,8 @@
             <div>
                 <h3> <b>Question 7</b> </h3>
                 <h4> You are always prepared and organized.</h4>
-                <select class="form-control form-control-lg sel" id="q7">
-                    <option value selected disabled> Choose one</option>
+                <select class="form-control form-control-md sel" id="q7">
+                    <option value selected disabled> Choose an option</option>
                     <option value="1">1 (Strongly Disagree)</option>
                     <option value="2">2 (Disagree)</option>
                     <option value="3">3 (Neutral)</option>
@@ -131,8 +134,8 @@
             <div>
                 <h3> <b>Question 8 </b></h3>
                 <h4> You are passionate about your work.</h4>
-                <select class="form-control form-control-lg sel" id="q8">
-                    <option value selected disabled> Choose one</option>
+                <select class="form-control form-control-md sel" id="q8">
+                    <option value selected disabled> Choose an option</option>
                     <option value="1">1 (Strongly Disagree)</option>
                     <option value="2">2 (Disagree)</option>
                     <option value="3">3 (Neutral)</option>
@@ -144,8 +147,8 @@
             <div>
                 <h3> <b>Question 9 </b></h3>
                 <h4> You get stressed very easily.</h4>
-                <select class="form-control form-control-lg sel" id="q9">
-                    <option value selected disabled> Choose one</option>
+                <select class="form-control form-control-md sel" id="q9">
+                    <option value selected disabled> Choose an option</option>
                     <option value="1">1 (Strongly Disagree)</option>
                     <option value="2">2 (Disagree)</option>
                     <option value="3">3 (Neutral)</option>
@@ -157,8 +160,8 @@
             <div>
                 <h3> <b>Question 10</b> </h3>
                 <h4> You prefer working by yourself.</h4>
-                <select class="form-control form-control-lg sel" id="q10">
-                    <option value selected disabled> Choose one</option>
+                <select class="form-control form-control-md sel" id="q10">
+                    <option value selected disabled> Choose an option</option>
                     <option value="1">1 (Strongly Disagree)</option>
                     <option value="2">2 (Disagree)</option>
                     <option value="3">3 (Neutral)</option>
@@ -168,54 +171,37 @@
             </div> <br>
             <hr>
 
-            <div id = "error"></div>
+            <div id="error"></div>
 
             <div>
                 <button type="submit" class="btn btn-info btn-lg btn-block" id="submit"> Submit</button>
             </div>
 
-
-
         </div>
-       
+
     </div>
 
 
-  
-   
-
-
- 
-
-
-  
     <!-- Modal -->
     <div class="modal fade" id="myModal" role="dialog">
-      <div class="modal-dialog">
-      
-        <!-- Modal content-->
-        <div class="modal-content">
-          <div class="modal-header">
-            <h2 class="modal-title">Best Match</h2>
-          </div>
-          <div class="modal-body">
-              <h3 id="newEmp"></h3>
-            <img id = "newpic" alt = ""> 
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div>
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title">Best Match</h2>
+                </div>
+                <div class="modal-body">
+                    <h3 id="newEmp"></h3>
+                    <img id="newpic" alt="" width="100%">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
         </div>
-        
-      </div>
     </div>
-    
- 
-  
 
 
-
-<!-- Footer-->
+    <!-- Footer-->
     <footer class="footer">
         <div class="container">
             <a href="/api/employees">API Employees Link</a> | <a href="/public/home.html"> Home</a>
@@ -223,13 +209,13 @@
     </footer>
 
 
- <!-- Scripts -->  
- <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <script src="/assets/js/survey.js"></script>
 
 
 </body>
 
-</html>   
+</html>

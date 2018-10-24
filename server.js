@@ -6,7 +6,7 @@ const app = express();
 const PORT = process.env.PORT || 8080;
 
 //setting up express app to handle data parsing
-app.use(express.urlencoded({extended: true}));
+app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 
@@ -21,7 +21,7 @@ require('./app/routing/htmlRoutes.js')(app);
 
 
 //Listener
-app.listen(PORT, function(){
+app.listen(PORT, function () {
     console.log("The port is: " + PORT);
 
 });
