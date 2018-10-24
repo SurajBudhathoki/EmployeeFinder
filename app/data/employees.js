@@ -4,7 +4,7 @@ var employeesList = [
 
     {
         "name" : "Ahmed",
-        "photo" : "/assets/images/ahmed.png",
+        "photo" : "../public/assets/images/ahmed.png",
         "scores" : [
             5,
             1,
@@ -100,7 +100,8 @@ var employeesList = [
     },
     {
         "name" : "George",
-        "photo" : "\assets\images\george.jpg",
+       // "photo" : "\assets\images\george.jpg",
+        "photo" : "https://pbs.twimg.com/profile_images/1013292799352037376/SNCb4e6E_400x400.jpg",
         "scores" : [
             1,
             1,
@@ -132,7 +133,7 @@ var employeesList = [
     },
     {
         "name" : "Isha",
-        "photo" : "\assets\images\isha.jpg",
+        "photo" : "https://pbs.twimg.com/profile_images/1013292799352037376/SNCb4e6E_400x400.jpg",
         "scores" : [
             1,
             3,

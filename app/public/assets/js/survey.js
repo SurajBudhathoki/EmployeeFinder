@@ -54,7 +54,9 @@ $('#submit').on('click', function(event) {
   $.post('/api/employees', newEmployee, function(data) {
     $('#newEmp').text(data.name);
     $('#newpic').attr('src', data.photo);
-  })
+
+    $("#myModal").modal("toggle");
+  });
 
 
  //removing error message after successful validation 

@@ -1,3 +1,7 @@
 .jumbotron {
-    background-color : lightgreen;
+    background-color : lightcyan;
+}
+
+.but, #submit {
+    background-color: #0C6980;
 }
