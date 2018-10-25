@@ -1,7 +1,14 @@
-.jumbotron {
-    background-color : lightcyan;
+body {
+    background-image: url("/assets/images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover; 
 }
 
-.but, #submit {
+.jumbotron {
+    background-color : #C0F5E8;
+    border: solid 2px #0C6980;
+}
+
+#survey, #submit {
     background-color: #0C6980;
 }
