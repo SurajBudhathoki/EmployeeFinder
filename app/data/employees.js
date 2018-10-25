@@ -150,14 +150,14 @@ var employeesList = [
         "name": "Julia",
         "photo": "/assets/images/julia.jpg",
         "scores": [
+            4,
+            5,
+            5,
+            4,
             5,
             5,
             5,
-            5,
-            5,
-            5,
-            5,
-            5,
+            4,
             5,
             5
         ]

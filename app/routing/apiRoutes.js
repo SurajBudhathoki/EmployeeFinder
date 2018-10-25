@@ -19,17 +19,17 @@ module.exports = function (app) {
 
 
         //creating an object for the best match    
-        var bestMatch = {
+        const bestMatch = {
             name: "",
             photo: "",
             totalScore: 50
         };
 
 
-        var newScores = req.body.scores;
-        var newEmployee = req.body;
+        const newScores = req.body.scores;
+        const newEmployee = req.body;
 
-        var total;
+        let total;
 
         //looping the entire employeeList  
         for (let i = 0; i < employeesList.length; i++) {
