@@ -1,15 +1,28 @@
 {
-  "name": "EmployeeFinder",
+  "name": "employeefinder",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4"
-  }
+  },
+  "engines": {
+    "node": "4.1.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SurajBudhathoki/EmployeeFinder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SurajBudhathoki/EmployeeFinder/issues"
+  },
+  "homepage": "https://github.com/SurajBudhathoki/EmployeeFinder#readme"
 }
