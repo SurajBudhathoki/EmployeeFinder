@@ -3,7 +3,7 @@ $(function () {
 
   // replacing the original label with the uploaded file
   $('#employeeImage').on('change', function () {
-    var fileName = $(this).val();
+    const fileName = $(this).val();
     $(this).next('.custom-file-label').html(fileName);
   })
 
@@ -38,7 +38,7 @@ $(function () {
     if (validateForm()) {
 
       //creating an object for the user input  
-      var newEmployee = {
+      const newEmployee = {
         name: $('#employeeName').val().trim(),
         photo: $('#employeeImage').val().trim(),
         scores: [
