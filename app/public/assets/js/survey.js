@@ -58,7 +58,7 @@ $(function () {
       //using POST to send user input to the API
       $.post('/api/employees', newEmployee, function (data) {
         $('#newEmp').text(data.name);
-        $('#newpic').attr('src', data.photo);
+        $('#newPic').attr('src', data.photo);
 
         $("#myModal").modal("toggle");
       });

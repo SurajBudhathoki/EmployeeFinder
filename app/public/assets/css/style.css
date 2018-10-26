@@ -12,3 +12,10 @@ body {
 #survey, #submit {
     background-color: #0C6980;
 }
+
+#newPic {
+    position: relative;
+    float: left;
+    width:  350px;
+    height: 350px;
+}
